@@ -23,6 +23,7 @@ section {
 
 /* Grid alapú layout */
 main {
+    background: url(Képek/háttérkép.webp) no-repeat center center fixed;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -62,6 +63,10 @@ nav ul li a:hover, nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 oszlop a termékekhez */
     gap: 20px; /* Térköz a termékek között */
+}
+
+#products {
+    background: url(Képek/háttérkép.webp) no-repeat center center fixed;
 }
 
 .product {
@@ -135,6 +140,8 @@ main * {
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .text {

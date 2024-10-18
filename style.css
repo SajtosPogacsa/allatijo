@@ -6,6 +6,11 @@ body {
     background-color: #f4f4f4;
 }
 
+html{
+    cursor: url("allatijo/images/mancsoska.png"), default;
+    height: 100%;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -23,6 +28,7 @@ section {
 
 /* Grid alapú layout */
 main {
+
     background: url(Képek/háttérkép.webp) no-repeat center center fixed;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -177,4 +183,15 @@ main * {
 
 .asd {
     grid-column: 4/6;
+}
+
+.termekek{
+    text-align: center;
+}
+.aruhazunk{
+    background-color: rgb(35, 135, 220);
+}
+.rendelesHeader{
+    background-color: rgb(35, 135, 220);
+    background: linear-gradient(0deg, rgb(35, 135, 220), white);
 }

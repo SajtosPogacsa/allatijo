@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rendelős Weboldal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,7 +13,6 @@
         <nav id="">
             <a href="index.html">Főoldal</a>
             <a href="rendeles.html">Rendelés</a>
-            <a href="">Céginformáció</a>
         </nav>
     </header>
 
@@ -150,13 +150,13 @@
         <div id="cart-items">
             <!-- Kosár tartalma dinamikusan itt jelenik meg -->
         </div>
-        <button id="checkout-button" ><a href="checkout.html">Fizetés</a> </button>
+        <a id="checkout-button" href="checkout.html">Fizetés</a>
+        <a id="checkout-button clear" href="">Kosár törlése</a>
     </section>
 
     <footer>
         <p>&copy; Busai Dániel, Hornyák Ákos weboldala</p><br><p>Minden jog fenntartva</p>
     </footer>
 
-    <script src="main.js"></script>
 </body>
 </html>

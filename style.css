@@ -7,7 +7,7 @@ body {
 }
 
 html{
-    cursor: url("allatijo/images/mancsoska.png"), default;
+    cursor: url("images/mancsoska.png"), default;
     height: 100%;
 }
 
@@ -29,7 +29,7 @@ section {
 /* Grid alapú layout */
 main {
 
-    background: url(Képek/háttérkép.webp) no-repeat center center fixed;
+    background: url(images\háttérkép.webp) no-repeat center center fixed;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -72,7 +72,7 @@ nav ul li a:hover, nav a:hover {
 }
 
 #products {
-    background: url(Képek/háttérkép.webp) no-repeat center center fixed;
+    background: url(images\háttérkép.webp) no-repeat center center fixed;
 }
 
 .product {
@@ -95,12 +95,13 @@ nav ul li a:hover, nav a:hover {
 }
 
 /* Termékkártyák gomb */
-button {
+button, #checkout-button {
     background-color: #28a745;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 button:hover {
@@ -124,7 +125,7 @@ footer {
 footer ul {
     text-decoration: none;
     list-style: none;
-    text-align: left;
+    text-align: center;
 }
 
 /* Főoldal elemek */
@@ -181,7 +182,6 @@ main * {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .asd {
     grid-column: 4/6;
 }
@@ -195,8 +195,7 @@ main * {
 .rendelesHeader{
     background-color: rgb(35, 135, 220);
     background: linear-gradient(0deg, rgb(35, 135, 220), white);
-=======
-
+}
 
 @media screen and (max-width: 1024px) {
     main {
@@ -210,6 +209,7 @@ main * {
 
     .picture {
         grid-column: 2/3;
+        height: 90%;
     }
 
     .picture:nth-of-type(2) {
@@ -231,5 +231,4 @@ main * {
     .left {
         grid-column: 1/2;
     }
->>>>>>> c9c01b2059b7b8eae115978152b6b7732e626060
 }

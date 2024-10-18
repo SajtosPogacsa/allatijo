@@ -181,6 +181,7 @@ main * {
     main {
         grid-template-columns: repeat(2, 1fr);
     }
+    
 
     .text {
         grid-column: 1/2;

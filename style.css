@@ -225,6 +225,10 @@ main {
     color: white;
 }
 
+li{
+    list-style: none;
+}
+
 /* Média lekérdezések */
 @media screen and (max-width: 1024px) {
     main {

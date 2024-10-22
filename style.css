@@ -225,6 +225,12 @@ main {
     color: white;
 }
 
+#checkout-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
 /* Média lekérdezések */
 @media screen and (max-width: 1024px) {
     main {

@@ -66,8 +66,12 @@ section {
 /* Termékek grid layout */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 3 oszlop a termékekhez */
+    gap: 20px; /* Térköz a termékek között */
+}
+
+#products {
+    background: url(images\háttérkép.webp) no-repeat center center fixed;
 }
 
 .product {
@@ -233,6 +237,7 @@ main {
 
     .picture {
         grid-column: 2/3;
+        height: 90%;
     }
 
     .picture:nth-of-type(2) {

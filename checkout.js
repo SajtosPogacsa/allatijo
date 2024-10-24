@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         checkoutItemsContainer.innerHTML = "<p>A kosár üres.</p>";
     } else {
         checkoutItemsContainer.innerHTML = cartItems.map(item => `
-            <div class="product">
+            <div class="product checkout">
                 <img src="${item.img}">
                 <h3>${item.name}</h3>
                 <p>Ár: ${item.price}</p> 

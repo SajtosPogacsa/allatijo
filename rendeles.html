@@ -8,13 +8,13 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Állati Finomságok - Prémium Eledel Kedvenceidnek</h1>
-        <nav>
-            <a href="index.html">Főoldal</a>
-            <a href="rendeles.html">Rendelés</a>
-        </nav>
-    </header>
+    <div class="board">
+        <h1>Üdvözlünk az Állati Finomságok Világában!</h1>
+    </div>
+    <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="rendeles.html">Rendelés</a>
+    </nav>
 
     <section id="products">
         <h2 class="termekek">Termékeink</h2>
@@ -28,11 +28,9 @@
                 <ul>
                     <li>Kis- és közepes testű kutyáknak napi 200-400g</li>
                     <li>nagyobb testű kutyáknak 500-800g</li>
-                </p>
-                <button id="order">Kosárba</button>
-                    <li>Nagyobb testű kutyáknak 500-800g</li>
                 </ul>
-                <button>Kosárba</button>
+                <button id="order">Kosárba</button>
+
             </div>
             <div class="product">
                 <img src="images/EdesKrumplisKutyaKaja.webp" alt="Édesburgonyás kutya eledel" class="kepek">
@@ -44,12 +42,9 @@
                     <li>Kis testű kutyáknak 150-250g</li>
                     <li>közepes testű kutyáknak 300-500g</li>
                     <li>nagytestű kutyáknak 600-900g</li>
-            </p>
-                <button id="order">Kosárba</button>
-                    <li>Közepes testű kutyáknak 300-500g</li>
-                    <li>Nagytestű kutyáknak 600-900g</li>
                 </ul>
-                <button>Kosárba</button>
+                <button id="order">Kosárba</button>
+
             </div>
             <div class="product">
                 <img src="images/CsikreRizsKutyaKaja.webp" alt="Csirkés-rizses kutya eledel">
@@ -61,23 +56,22 @@
                     <li>Kis testű kutyáknak 150-300g</li>
                     <li>közepes testű kutyáknak 350-550g</li> 
                     <li>nagyobb testű kutyáknak 600-900g naponta</li>
-                </p>
-                <button id="order">Kosárba</button>
-                    <li>Közepes testű kutyáknak 350-550g</li>
-                    <li>Nagyobb testű kutyáknak 600-900g naponta</li>
                 </ul>
-                <button>Kosárba</button>
+                <button id="order">Kosárba</button>
+
             </div>
             <div class="product">
                 <img src="images/CsirkesBorsosMacskaKaja.webp" alt="Csirkés-borsós macska eledel">
                 <h3>Prémium csirkés-borsós száraz macskaeledel</h3>
                 <p>Ez a prémium száraz macskaeledel csirkéből, borsóból és rizsből készült, gabonamentes és fehérjedús. Organikus összetevői miatt kiváló választás érzékeny gyomrú vagy magas tápanyagigényű macskáknak.</p>
                 <p>Ár: 4800 Ft</p>
-                <p>Napi adagolás: 
-                    <li>Kis testű macskáknak 30-50g</li>
-                    <li>közepes testű macskáknak 50-70g</li>
-                   <li>Nagyobb testű macskáknak 70-90g naponta</li> 
-                </p>
+                <p>Napi adagolás: </p>
+                    <ul>
+                        <li>Kis testű macskáknak 30-50g</li>
+                        <li>közepes testű macskáknak 50-70g</li>
+                       <li>Nagyobb testű macskáknak 70-90g naponta</li> 
+                    </ul>
+
                 <button id="order">Kosárba</button>
             </div>
             <div class="product">
@@ -85,56 +79,27 @@
                 <h3>Macska száraz eledel</h3>
                 <p>Száraz macskaeledel 32% fehérjével, 33% zsírral. Vitaminokat és tápanyagokat tartalmaz az egészség támogatására.</p>                
                 <p>Ár: 3000 Ft</p>
-                <p>Napi adagolás: 
+                <p>Napi adagolás:</p>
+                <ul>
                     <li>Kis testű macskáknak 30-50g</li>
                     <li>közepes testű macskáknak 50-70g</li>
                    <li>Nagyobb testű macskáknak 70-90g naponta</li> 
-                </p>
+                </ul>
                 <button id="order">Kosárba</button>
             </div>
             <div class="product">
                 <img src="images/32osmacskakaja.webp" alt="">
                 <h3>Prémium 32%-os fehérjetartalmú macskaeledel</h3>
                 <p>Ez a prémium száraz macskaeledel 32% fehérjét és 33% zsírt tartalmaz, ideális választás minden korosztályú és fajtájú macska számára. A vitaminokkal és ásványi anyagokkal dúsított receptúra támogatja a macskák egészséges szőrzetét, bőrét és immunrendszerét.</p>
-                <p>Ár: 4500 Ft</p> <p>Napi adagolás:
-                    <li>Kis testű macskáknak 30-50g</li>
-                    <li>Közepes testű macskáknak 50-70g</li>
-                    <li>Nagyobb testű macskáknak 70-90g naponta</li>
-                </p>
-                <button id="order">Kosárba</button>
-                <p>Napi adagolás:</p>
-                <ul>
-                    <li>Kis testű macskáknak 30-50g</li>
-                    <li>Közepes testű macskáknak 50-70g</li>
-                    <li>Nagyobb testű macskáknak 70-90g naponta</li>
-                </ul>
-                <button>Kosárba</button>
-            </div>
-            <div class="product">
-                <img src="images/macskakaja.webp" alt="Macska száraz eledel">
-                <h3>Macska száraz eledel</h3>
-                <p>Száraz macskaeledel 32% fehérjével, 33% zsírral. Vitaminokat és tápanyagokat tartalmaz az egészség támogatására.</p>                
-                <p>Ár: 3000 Ft</p>
-                <p>Napi adagolás:</p>
-                <ul>
-                    <li>Kis testű macskáknak 30-50g</li>
-                    <li>Közepes testű macskáknak 50-70g</li>
-                    <li>Nagyobb testű macskáknak 70-90g naponta</li>
-                </ul>
-                <button>Kosárba</button>
-            </div>
-            <div class="product">
-                <img src="images/32osmacskakaja.webp" alt="32%-os fehérjetartalmú macskaeledel">
-                <h3>Prémium 32%-os fehérjetartalmú macskaeledel</h3>
-                <p>Ez a prémium száraz macskaeledel 32% fehérjét és 33% zsírt tartalmaz, ideális választás minden korosztályú és fajtájú macska számára. A vitaminokkal és ásványi anyagokkal dúsított receptúra támogatja a macskák egészséges szőrzetét, bőrét és immunrendszerét.</p>
                 <p>Ár: 4500 Ft</p>
-                <p>Napi adagolás:</p>
-                <ul>
+                 <p>Napi adagolás:</p>
+                 <ul>
                     <li>Kis testű macskáknak 30-50g</li>
                     <li>Közepes testű macskáknak 50-70g</li>
                     <li>Nagyobb testű macskáknak 70-90g naponta</li>
-                </ul>
-                <button>Kosárba</button>
+                 </ul>
+                <button id="order">Kosárba</button>
+
             </div>
             <div class="product">
                 <img src="images/EdesKrumplisJutalomFalat.webp" alt="Csirkés és édesburgonyás kutya jutalomfalat">
@@ -142,8 +107,7 @@
                 <p>Ez a prémium kutya jutalomfalat kiváló minőségű csirkehúsból és édesburgonyából készült, természetes és tápláló összetevőkkel. Aranybarna színével és ínycsiklandó megjelenésével azonnal vonzza a kutyák figyelmét. A falat ropogós textúrájú, és tökéletes jutalomként szolgál minden korosztályú és fajtájú kutyának</p>
                 <p>Ár: 1500 Ft</p> 
                 <button id="order">Kosárba</button>
-                <p>Ár: 1500 Ft</p>
-                <button>Kosárba</button>
+
             </div>
             <div class="product">
                 <img src="images/MarhasGarnelasKutyaJutalomFalat.webp" alt="Marhás-garnélás kutya jutalomfalat">
@@ -151,8 +115,7 @@
                 <p>Ez a különleges jutalomfalat marhából és garnélából készült, ízletes és tápláló összetevőkkel. A falat gazdag, vörösesbarna színe és ínycsiklandó megjelenése azonnal vonzza a kutyák figyelmét. Ropogós textúrája tökéletes választás a kutyák jutalmazására.</p>
                 <p>Ár: 2000 Ft</p> 
                 <button id="order">Kosárba</button>
-                <p>Ár: 2000 Ft</p>
-                <button>Kosárba</button>
+
             </div>
             <div class="product">
                 <img src="images/csirkeskutyajutalom.webp" alt="Csirkés kutya jutalomfalat">
@@ -160,8 +123,7 @@
                 <p>Ez a csirkés kutya jutalomfalat ideális választás minden fajtájú és méretű kutyának. A csont alakú falat egészséges, természetes csirkehúsból készült, aranybarna színével és ropogós textúrájával azonnal felkelti a kutyák érdeklődését. A termék teljesen adalékmentes, kizárólag válogatott, természetes összetevőket tartalmaz.</p>
                 <p>Ár: 579 Ft</p> 
                 <button id="order">Kosárba</button>
-                <p>Ár: 579 Ft</p>
-                <button>Kosárba</button>
+
             </div>
         </div>
         <h2 class="termekek">Egzotikus állatoknak ajánljuk</h2>
@@ -200,21 +162,15 @@
                 <h3>Prémium cukormókus jutalomfalat – Gyümölcsös és diós ízben</h3>
                 <p>Ez a cukormókusok számára készült jutalomfalat természetes összetevőkből, például gyümölcsökből, diófélékből és egy kis mézből készül. A falatok aprók és harapásméretűek, színes gyümölcsdarabkákra emlékeztetnek, élénk narancs és sárga árnyalatokkal.</p>
                 <p>Ár: 6500 Ft</p> 
-                <button>Kosárba</button>
+                <button id="order">Kosárba</button>
             </div>
 
 
     </section>
-
-    <button id="checkout-button">Kosár</button>
-    <section id="cart">
-        <h2>Kosár</h2>
-        <div id="cart-items">
-        </div>
-        <a id="checkout-button" href="checkout.html">Fizetés</a>
-        <a id="clear-cart-button" href="">Kosár törlése</a>
-    </section>
-    <button id="clear-cart-button">Kosár ürítése</button>
+    <div class="buttons">
+        <button id="checkout-button">Kosár</button>
+        <button id="clear-cart-button">Kosár ürítése</button>    
+    </div>
 
     <footer>
         <ul>

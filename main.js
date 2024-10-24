@@ -36,8 +36,9 @@ document.getElementById("checkout-button").addEventListener("click", function() 
     window.location.href = "checkout.html";
 });
 
-
+// kosár törlése
 clear.addEventListener("click", ()=> {
     localStorage.clear();
     alert("Kosár sikeresen kiürítve")
 })
+

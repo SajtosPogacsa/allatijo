@@ -230,6 +230,9 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+li{
+    list-style: none;
+}
 
 /* Média lekérdezések */
 @media screen and (max-width: 1024px) {

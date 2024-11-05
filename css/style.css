@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    background-image: url(images/hatterkepjo.jpg);
+    background-image: url(/images/hatterkepjo.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -70,7 +70,7 @@ nav a:hover {
 
 /*#region Main*/
 main {
-    background: url(Képek/háttérkép.webp) no-repeat center center fixed;
+    background: url(/Képek/háttérkép.webp) no-repeat center center fixed;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -147,7 +147,7 @@ section {
 }
 
 #products {
-    background: url(images\háttérkép.webp) no-repeat center center fixed;
+    background: url(/images\háttérkép.webp) no-repeat center center fixed;
 }
 
 .product {
